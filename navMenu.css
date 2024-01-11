@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+#menuBar{
+    background-color: beige;
+}
+.navText:any-link{
+    font: bold 30pt Baskerville;
+    text-decoration: none;
+    color: black;   
+}
+.menuOption{
+    border: transparent;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px; 
+    width: 75%;
+}
+#navMenu{
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr 1fr 1fr;
+}
+#homePageImage{
+    margin: 0;
+}
+#mainImage{
+    width: 100%;
+    position: fixed;
+}
