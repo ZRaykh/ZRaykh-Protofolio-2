@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Zachary .R Home</title>
     <link rel="stylesheet" href="navMenu.css" text="text/css">
+    <script src="arrows.js"></script>
 </head>
 <body>
     <header id = "menuBar">
@@ -15,6 +16,7 @@
             </div>   
             <div class = "menuOption">
                 <a href = "index.html" class = "navText">HOME</a>
+                
             </div>
             <div class = "menuOption">
                 <a href = "gallery.html" class = "navText">GALLERY</a>
@@ -28,7 +30,9 @@
         </div>
     </header>
     <p id = "homePageImage">
-        <img id = "mainImage" src="frontPage1.jpg">
+        <img id = "mainImage" src="displayImages\frontPage1.jpg">
     </p>
+    <img id = "rightArrow" src = "rightArrow.png" onclick="cycleImageRight()"> 
+    <img id = "leftArrow" src="leftArrow.png" onclick="cycleImageLeft()">        
 </body>
 </html>
