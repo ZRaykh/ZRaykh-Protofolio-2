@@ -1,0 +1,32 @@
+#aboutContent{
+    display: flex;
+    margin: 5%;
+    position: fixed;
+ 
+}
+#personalPhoto{
+    margin: 2.5%;
+    width: 24%;
+    height: 50%;
+}
+
+#introHeader{
+    font-size: 3vw;
+    margin: 0.5;
+}
+#introText{
+    font: 1.75vw Futura;
+    display: block;
+    width: 100%;  
+}
+
+#introContent{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5%;
+    color: black;
+    display: block;
+    width: 100%;
+    background:beige;
+}

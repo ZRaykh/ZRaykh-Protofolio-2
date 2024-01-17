@@ -6,14 +6,21 @@ function cycleImageRight()
     if (imgVal < maxVal)
     {
         imgVal++;
-        document.getElementById('mainImage').src = "displayImages\\frontPage"+ imgVal +".jpg";
     }
+    else{
+        imgVal = 1;
+    }
+    document.getElementById('mainImage').src = "displayImages\\frontPage"+ imgVal +".jpg";
+
 }
 function cycleImageLeft()
 {
     if (imgVal > 1)
     {
         imgVal--;
-        document.getElementById('mainImage').src = "displayImages\\frontPage"+ imgVal +".jpg";
     }
+    else{
+        imgVal = maxVal;
+    }
+    document.getElementById('mainImage').src = "displayImages\\frontPage"+ imgVal +".jpg";
 }
