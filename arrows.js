@@ -1,5 +1,5 @@
 var imgVal = 1;
-const maxVal = 3;
+const maxVal = 7;
 
 function cycleImageRight()
 {

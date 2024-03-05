@@ -12,21 +12,23 @@
 
 #introHeader{
     font-size: 3vw;
-    margin: 0.5;
 }
+
 #introText{
     font: 1.75vw Futura;
     display: block;
-    width: 100%;  
+    text-align: center;
+    width: 90%;  
 }
 
-#introContent{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+#introContent {
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
     margin: 2.5%;
     color: black;
-    display: block;
+    display: flex; 
+    flex-direction: column; 
     width: 100%;
-    background:beige;
+    background: beige;
 }

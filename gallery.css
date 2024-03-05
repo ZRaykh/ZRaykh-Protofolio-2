@@ -1,0 +1,24 @@
+#photos{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.photoRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.example{
+    width: 45%;
+    height: 45%;
+    object-fit: cover;
+    padding: 2.5%;
+}
+
+.exampleHalf{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    padding-bottom: 5%;
+
+}

@@ -1,60 +1,94 @@
-body{
+body {
     margin: 0;
     background-color: rgb(180, 210, 245);
 }
-#menuBar{
+
+#menuBar {
     background-color: beige;
 }
-.navText:any-link{
+
+.navText:any-link {
     font: bold 30pt Baskerville;
     text-decoration: none;
     color: black;   
 }
-.menuOption{
+
+.menuOption {
     border: transparent;
     border-radius: 15px;
     text-align: center;
     padding: 15px; 
     width: 75%;
 }
-#navMenu{
+
+#navMenu {
     margin: auto;
     align-items: center;
     display: grid;
-    grid-template-columns:  2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  2fr 1fr 1fr  1fr;
 }
+
 #gallery {
     float: left;
     overflow: hidden;
 }
-  
+
 #dropButton {
-    all:unset;
+    all: unset;
     font: bold 30pt Baskerville;
     text-decoration: none;
     color: black;   
-  }
-  
+}
+
 #galleries {
     display: none;
     position: absolute;
     align-items: center;
     z-index: 2;
     min-width: 10%;
- }
-  
+}
+
 #galleries a {
     color: black;
     font: bold 15pt Baskerville;
-    background-color:rgb(199, 199, 175);
+    background-color: rgb(199, 199, 175);
     text-decoration: none;
     display: block;
-  }
-  
+}
+
 #galleries a:hover {
     background-color: #ddd;
-  }
-  
+}
+
 #gallery:hover #galleries {
     display: block;
-  }
+}
+#copyright {
+    text-align: center;
+    color: black; 
+    font: bold 15pt Baskerville;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: beige; 
+    padding: 10px 0; 
+}
+
+@media (max-width: 767px) {
+    .navText:any-link,
+    #navMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #navMenu img {
+        order: 1; 
+    }
+
+    #navMenu ul {
+        order: 2; 
+    }
+}
